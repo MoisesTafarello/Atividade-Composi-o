@@ -76,7 +76,3 @@ class Computador:
                 f"{self.__processador}\n"
                 f"{self.__memoria_ram}"
                 f"{self.__armazenamento}")
-    
-    def __del__ (self):
-        print (f"\nO computador {self.__marca} {self.__modelo} foi destruído. "
-              f"Seus componentes não existem mais.")
