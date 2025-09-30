@@ -64,4 +64,3 @@ meu_pc.ligar()
 print("\nRepresentação completa:")
 print(meu_pc)
 
-del meu_pc
