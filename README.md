@@ -5,8 +5,8 @@
 
 ## 🔹 Descrição
 
-Esta atividade é um exercício em Python sobre **composição de objetos**, representando um **Computador** e seus componentes: Processador, Memória RAM e Armazenamento.  
-O objetivo é aplicar conceitos de **POO**, **encapsulamento** e **ciclo de vida de objetos compostos**, mostrando que os componentes não existem fora do computador.
+Este projeto é um exercício em Python sobre **composição de objetos**, representando um **Computador** e seus componentes: Processador, Memória RAM e Armazenamento.  
+O objetivo é aplicar conceitos de **POO**, **encapsulamento** e **composição**, mostrando como os componentes fazem parte do computador.
 
 ---
 
@@ -32,7 +32,7 @@ O objetivo é aplicar conceitos de **POO**, **encapsulamento** e **ciclo de vida
 #### `Computador`
 - **Atributos:** `marca`, `modelo` e composição de `Processador`, `MemoriaRAM`, `Armazenamento`
 - **Métodos:** `getMarca()`, `getModelo()`, `getProcessador()`, `getMemoria_ram()`, `getArmazenamento()`, `ligar()`
-- **Descrição:** Representa o computador completo. Destruir o objeto destrói também seus componentes.
+- **Descrição:** Representa o computador completo, com acesso aos componentes via métodos `get_`.
 
 ---
 
@@ -40,7 +40,7 @@ O objetivo é aplicar conceitos de **POO**, **encapsulamento** e **ciclo de vida
 
 - Encadeamento de métodos: `meu_computador.ligar()`
 - Representação amigável com `__str__`
-- Ciclo de vida de composição: componentes dependem do computador
+- Demonstração de composição: componentes fazem parte do computador
 
 ---
 
@@ -63,4 +63,3 @@ meu_pc = Computador(
 meu_pc.ligar()
 print("\nRepresentação completa:")
 print(meu_pc)
-
